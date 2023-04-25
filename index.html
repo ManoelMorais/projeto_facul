@@ -4,12 +4,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="bootstrap/bootstrap.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="estilo/style.css">
     <title>Projeto loja</title>
 </head>
 <body>
-    <h1>Loja</h1>
+    <div class="container">
+    <h1> 
+        <i class="bi bi-cart"></i>
+        Loja
+    </h1>
 
-    <table>
+    <table class="table table-hover">
         <thead>
             <tr>
                 <th>Imagem</th>
@@ -23,23 +31,31 @@
             <tr>
                 <td> <img src="img/celular.jpg" alt="produtoum" width="200px"></td>
                 <td> 
-                    <div>Apple</div>
+                    <div>Celular Apple</div>
                     <div>Código: 4743498</div>
                     <div>Cor: todas</div>
                 </td>
                 <td>7500</td>
-                <td>0</td>
+                <td>
+                    <span class="badge bg-danger">-</span>
+                    0
+                    <span class="badge bg-success">+</span>
+                </td>
                 <td>0</td>
             </tr>
             <tr>
                 <td> <img src="img/notebook.jpg" alt="produtoum" width="200px"></td>
                 <td> 
-                    <div>Apple</div>
+                    <div>Notebook Apple</div>
                     <div>Código: 1985533</div>
                     <div>Cor: todas</div>
                 </td>
                 <td>11000</td>
-                <td>0</td>
+                <td>
+                    <span class="badge bg-danger">-</span>
+                    0
+                    <span class="badge bg-success">+</span>
+                </td>
                 <td>0</td>
             </tr>
             <tr>
@@ -50,13 +66,19 @@
                     <div>Cor: Preto</div>
                 </td>
                 <td>3000</td>
-                <td>0</td>
+                <td>
+                    <span class="badge bg-danger">-</span>
+                    0
+                    <span class="badge bg-success">+</span>
+                </td>
                 <td>0</td>
             </tr>
         </tbody>
     </table>
-    <footer>
-        Sub total: <span>0</span>
+    <footer class="text-center">
+        Sub total: <i class="bi bi-currency-dollar"></i><span>0</span>
     </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
 </body>
 </html>
