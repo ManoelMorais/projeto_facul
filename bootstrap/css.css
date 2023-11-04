@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.menu-toggle {
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.mobile-menu {
+  display: none;
+  background-color: #333;
+  color: #fff;
+}
+
+.mobile-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.mobile-menu ul li {
+  padding: 10px 20px;
+  border-bottom: 1px solid #555;
+}
+
+.mobile-menu ul li:last-child {
+  border-bottom: none;
+}
+.links{
+  color: white;
+  text-decoration: none;
+}
